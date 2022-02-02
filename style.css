@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:wght@200;800&display=swap');
+
+
+.container {
+    
+}
+
+.logo_name {
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+
+.logo {
+    padding-left: 10px;
+    background-color:black;
+    color: white;
+    display: flex;
+}
+
+.logo_buttoms{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 32px;
+    margin-left: 15px;
+    display: flex;
+}
+
+.rezimi_buttoms_info{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.buttom_items {
+    padding-left: 10px;
+}
+
+a{
+    font-weight: bold;
+    color: grey;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.game_poster{
+    margin-left: 5px;
+}
+
+.info_txt{
+    margin-left: 10px;
+    padding-top: 60px;
+}
+
+.info_main{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.play_href{
+    display: flex;
+    justify-content: center;
+}
+
+.watch_buttom{
+    background-color: yellow;
+    padding: 8px;
+    margin-left: 20px;
+}
+
+.rezimi_logo{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rezimi_tag{
+    display: flex;
+    justify-content: center;
+}
+
+.info_main_game{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rezimi_items{
+    background-color: yellow;
+    padding: 8px;
+    border-radius: 7px; 
+    
+}
+
+.info_rezimi_item{
+    margin-left: 25px;
+    line-height: 25px;
+    padding: 10px;  
+}
+
+.battleroyale_info{
+    background-image: url(background_img_FORTNITE.png);
+    border-radius: 10px;
+}
+
+.creative_info{
+    background-image: url(background_img_FORTNITE.png);
+    border-radius: 10px;
+}
+
+.fight_storm_info{
+    background-image: url(background_img_FORTNITE.png);
+    border-radius: 10px;
+    margin-right: 25px;
+}
+
+.rezimi_buttoms_info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.rezimi_buttoms{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fortnite{
+    color: white;
+}
+
+.rezimi_tags_buttoms{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    animation-name: rezimi_anim;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes rezimi_anim {
+    0%{
+        width: 50%;
+    }
+
+    100%{
+        width: 100%;
+    }
+}
+
+.info_game{
+    display: flex;
+}
+
+.play_buttom{
+    background-color:yellow;
+    margin-left: 20px;
+    padding: 8px;
+}
+
+.epic_games_icon_logo {
+    margin-right: 5px;
+}
+
+.info_img{
+    display: flex;
+    justify-content: center;
+}
+
+.fortnite_video_info{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.video_info_txt{
+    display: flex;
+    justify-content: center;
+}
+
+.video_fortnite_info{
+    display: flex;
+    justify-content: center;
+}
+
+.news_main{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.news_first_main{
+    display: flex;
+    justify-content: center;
+}
+
+.news_first_txt{
+    line-height: 30px;
+}
+
+.news_first_txt{
+    margin-left: 10px;
+    margin-top: 160px;
+}
+
+.info_txt{
+    display: flex;
+    justify-content: center;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.news_first_txt_tag{
+    color: rebeccapurple;
+}
+
+.news_first_tag{
+    position: absolute;
+    top: 320px;
+    padding-left: 25px;
+    color:rebeccapurple;
+    font-size: 30px;
+}
+
+.news_second_main{
+    display: flex;
+}
+
+.news_second_txt{
+    margin-left: 10px;
+    margin-top: 160px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.news_second_txt_tag{
+    color: green;
+}
+
+.news_second_tag{
+    position: absolute;
+    top: 350px;
+    padding-left: 25px;
+    color: green;
+}
+
+.news_first{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.news_second{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+news_second:hover{
+    animation-name: news_second_anim;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes news_second_anim{
+    0%{
+        width: 100%;
+    }
+
+    100%{
+        width: 110%;
+    }
+}
+
+
+.info_play{
+    margin-top: 10px;
+}
+
+a:hover{
+    animation-name: a_anim;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes a_anim{
+    0%{
+        font-size: 17px;
+    }
+
+    100%{
+       font-size: 18px; 
+    }
+}
+
+.world_foto {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.battleroyale_main_info{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.battleroyale_info_tag{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+.battleroyale_info_txt_first{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.snow_forest_foto{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.led_dinamic_tag{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+.led_dinamic_txt{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.led_dinamic_foto{
+    display: flex;
+    justify-content: center;
+}
+
+.main_creative_info{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.creative_exercise_txt{
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    color: white;
+}
+
+.creative_exercise_tag{
+    display: flex;
+    justify-content: center;
+    color: skyblue;
+    font-style: italic;
+}
+
+.works_creative_tag{
+    display: flex;
+    justify-content: center;
+    color: skyblue;
+    font-style: italic;
+}
+
+.interesting_works_players{
+    display: flex;
+    justify-content: center;
+}   
+
+.exercises_creative_tag{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-style: italic;
+}
+
+.first_exercise_tag{
+    display: flex;
+    justify-content: center;
+    color: skyblue;
+}
+
+.first_exersice_txt{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-style: italic;
+}
+
+.second_exercise{
+    margin-top: 30px;
+}
+
+.second_exercise_tag{
+    display: flex;
+    justify-content: center;
+    color: skyblue;
+}
+
+.second_exercise_txt{
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    font-style: italic;
+}
+
+.main_logo_img_fight_storm{
+    position: relative;
+}
+
+.fight_storm_logo_tag{
+    position: absolute;
+    top: 50px;
+    padding-left: 250px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: skyblue;
+}
+
+.info_fight_storm_txt{
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    font-size: 15px;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    color:midnightblue;
+    background-color: oldlace;
+    padding: 20px;
+    border-radius: 10px;
+}
